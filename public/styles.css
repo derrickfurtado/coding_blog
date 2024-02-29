@@ -1,0 +1,46 @@
+body {
+    background-color:silver;
+    display: flex;
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+    min-height: 100vh; /* Set minimum height to 100% of viewport height */
+    min-width: 90vh;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    flex-direction: column; /* Stack items vertically */
+}
+
+h1, h2, h3 {
+    text-align: center; /* Center align text */
+    margin: 20px 0; /* Add spacing between headings */
+    border: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+h4 {
+    text-align: left;
+    margin: 10px;
+    width: 90%;
+    border: 20px;
+    padding: 20px;
+}
+
+#bio {
+    border-radius: 10px;
+    border-style: solid;
+
+}
+
+#blogPosts {
+    border-radius: 10px;
+    border-style: solid;
+    
+}
+
+#profilePic {
+    border-radius: 40px;
+    width: 50vh;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5)
+}
