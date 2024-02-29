@@ -38,6 +38,11 @@ h4 {
     
 }
 
+#formSubmission {
+    border-radius: 10px;
+    border-style: solid;
+}
+
 #profilePic {
     border-radius: 40px;
     width: 50vh;
